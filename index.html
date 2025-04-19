@@ -1,128 +1,224 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8"> 
-    <title>덕성여대 맛집 투 마이클</title>
-  </head>
-  <body>
-    <h1>마이클이 소개하는 덕성여대 맛집</h1>
-    <hr>
-    <h3>페이지 목차</h3>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <title>덕대생이 추천하는 덕성여대 맛집</title>
+  <!-- 외부 스타일시트 연결 -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 헤더: 제목 및 학교 위치 소개 -->
+  <header>
+    <h1>덕대생이 추천하는 덕성여대 맛집</h1>
+    <p><mark>덕성여자대학교는 서울 도봉구 삼양로144길 33에 위치</mark>해 있습니다.</p>
+  </header>
+
+  <!-- 내비게이션: 페이지 내 각 섹션 앵커링크 -->
+  <nav>
     <ul>
-      <li><a href="#overview">페이지 개요</a></li>
-      <li><a href="#restaurant_list">덕성여대 맛집 목록</a></li>
-      <li><a href="#restaurant_detail">맛집 상세 정보</a></li>
+      <li><a href="#korean">한식</a></li>
+      <li><a href="#western">양식</a></li>
+      <li><a href="#chinese">중식</a></li>
+      <li><a href="#japanese">일식</a></li>
     </ul>
-    <hr>
-    <h2 id="overview">개요</h2>
-    <p>
-      덕성여자대학교는 <mark>서울 도봉구 삼양로144길 33</mark>에 있습니다.<br>
-      주변에 맛있는 음식점이 널려 있습니다.<br>
-      봄에 굶지 말고 모두 가봅시다!
-    </p>
-    <div style="background-color: skyblue; display: inline-block;" >
-      아래의 맛집 리스트는 다이닝코드에서 <span style="color:red">덕성여대 맛집</span>으로 검색한 210곳에서 뽑았습니다.
-    </div>
-    <hr>
-    <h2 id="restaurant_list">
-      덕성여대 맛집 목록(from. <a href="https://www.diningcode.com/list.dc?query=%EB%8D%95%EC%84%B1%EC%97%AC%EB%8C%80"  target="_blank">다이닝코드</a>)
-    </h2>
-    <ol type="1">
-      <li><a href="./pages/place1.html" title="링크를 클릭하시면 미성반점 상세페이지로 이동합니다.">미성반점 419</a></li>
-      <li><a href="./pages/place2.html" title="링크를 클릭하시면 춘천막국수 상세페이지로 이동합니다">춘천막국수</a></li>
-      <li><a href="./pages/place3.html" title="링크를 클릭하시면 궁전회관 상세페이지로 이동합니다.">궁전회관 수유</li>
-      <li><a href="./pages/place4.html" title="링크를 클릭하시면 히피스베이글 상세페이지로 이동합니다.">히피스베이글 덕성여대</a></li>
-      <li><a href="./pages/place5.html" title="링크를 클릭하시면 마포감자국 상세페이지로 이동합니다.">마포감자국 수유</a></li>
-      <li><a href="./pages/place6.html" title="링크를 클릭하시면 예와손만두 상세페이지로 이동합니다.">예와손만두 419</a></li>
-      <li><a href="./pages/place7.html" title="링크를 클릭하시면 진미기사식당 상세페이지로 이동합니다.">진미기사식당 수유</a></li>
-      <li><a href="./pages/place8.html" title="링크를 클릭하시면 우이동주막집 상세페이지로 이동합니다.">우이동주막집 우이동</a></li>
-      <li><a href="./pages/place9.html" title="링크를 클릭하시면 슬로핸드 상세페이지로 이동합니다.">슬로핸드 우이동</a></li>
-      <li><a href="./pages/place10.html" title="링크를 클릭하시면 엄마손돼지불백 상세페이지로 이동합니다.">엄마손돼지불백 수유본점</a></li>
-    </ol>
-    <hr>
-    <h2 id="restaurant_detail">맛집 상세 정보</h2>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>대표이미지</th>
-          <th>상호</th>
-          <th>구분</th>
-          <th>평점</th>
-          <th>위치</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="pages/place1.html"><img src="./media/place1.jpg" alt="미성반점" width="100" height="100" title="이미지를 클릭하면 미성반점 상세페이지로 이동합니다."></a></td>
-          <td>미성반점</td>
-          <td>짬뽕, 중국집</td>
-          <td>4.6</td>
-          <td>서울특별시 강북구 4.19로 37 1층</td>
-        </tr>
-        <tr>
-          <td><a href="pages/place2.html"><img src="./media/place2.jpg" alt="춘천막국수" width="100" height="100" title="이미지를 클릭하면 춘천막국수 상세페이지로 이동합니다."></a></td>
-          <td>춘천막국수</td>
-          <td>막국수, 녹두전</td>
-          <td>4.4</td>
-          <td>서울특별시 강북구 삼양로141길 4-4 춘천막국수</td>
-        </tr>
-        <tr>
-          <td><a href="pages/place3.html"><img src="./media/place3.jpg" alt="궁전회관" width="100" height="100" title="이미지를 클릭하면 궁전회관 상세페이지로 이동합니다."></a></td>
-          <td>궁전회관</td>
-          <td>기사식당, 연탄불백</td>
-          <td>4.2</td>
-          <td>서울특별시 강북구 한천로 1159 1층</td>
-        </tr>
-        <tr>
-          <td><a href="pages/place4.html"><img src="./media/place4.jpg" alt="히피스베이글" width="100" height="100" title="이미지를 클릭하면 궁전회관 상세페이지로 이동합니다."></a></td>
-          <td>히피스베이글</td>
-          <td>베이글, 빵</td>
-          <td>4.7</td>
-          <td>서울특별시 강북구 삼양로 528 1층</td>
-        </tr>
-        <tr>
-          <td><a href="pages/place5.html"><img src="./media/place5.jpg" alt="마포감자국" width="100" height="100"></a></td>
-          <td>마포감자국</td>
-          <td>감자탕, 감자국</td>
-          <td>4.4</td>
-          <td>서울특별시 강북구 한천로 1158 1층</td>
-        </tr>
-        <tr>
-          <td><a href="pages/place6.html"><img src="./media/place6.jpg" alt="예와 손만두" width="100" height="100"></a></td>
-          <td>예와 손문두</td>
-          <td>만두, 만두전골</td>
-          <td>4.6</td>
-          <td>서울특별시 강북구 4.19로 40-8 예와손만두</td>
-        </tr>
-        <tr>
-          <td><a href="pages/place7.html"><img src="./media/place7.jpg" alt="진미기사식당" width="100" height="100"></a></td>
-          <td>진미기사식당</td>
-          <td>기사시강, 한천</td>
-          <td>4.1</td>
-          <td>서울특별시 강북구 한천로 1163 1층 진미기사식당</td>
-        </tr>
-        <tr>
-          <td><a href="pages/place8.html"><img src="./media/place8.jpg" alt="우이동주막집" width="100" height="100"></a></td>
-          <td>우이동주막집</td>
-          <td>족발, 보쌈</td>
-          <td>4.2</td>
-          <td>서울특별시 강북구 삼양로141길 4-6 우이주막집</td>
-        </tr>
-        <tr>
-          <td><a href="pages/place9.html"><img src="./media/place9.jpg" alt="슬로핸드" width="100" height="100"></a></td>
-          <td>슬로핸드</td>
-          <td>카페, 핸드드립커피</td>
-          <td>4.5</td>
-          <td>서울특별시 강북구 삼양로141길 15-8</td>
-        </tr>
-        <tr>
-          <td><a href="pages/place10.html"><img src="./media/place10.jpg" alt="엄마손 돼지불백" width="100" height="100"></a></td>
-          <td>엄마손 돼지불백</td>
-          <td>기사식당,돼지불백</td>
-          <td>4.1</td>
-          <td>서울특별시 강북구 한천로 1138 </td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
+  </nav>
+
+  <!-- 메인 콘텐츠 시작 -->
+  <main>
+
+    <!-- 한식 섹션 -->
+    <section id="korean">
+      <h2>🍚 한식</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>대표이미지</th>
+            <th>상호</th>
+            <th>구분</th>
+            <th>평점</th>
+            <th>위치</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 각 식당의 대표 이미지, 이름, 정보 -->
+          <tr>
+            <td><a href="pages/place1.html"><img src="./media/hanplace1.jpg" alt="우이동주막집" width="100" height="100"></a></td>
+            <td><a href="pages/place1.html">우이동주막집</a></td>
+            <td>족발, 보쌈</td>
+            <td>4.2</td>
+            <td>서울특별시 강북구 삼양로141길 4-6</td>
+          </tr>
+          <!-- 이하 동일한 형식 -->
+          <tr>
+            <td><a href="pages/place2.html"><img src="./media/hanplace2.jpg" alt="솔밭집" width="100" height="100"></a></td>
+            <td><a href="pages/place2.html">솔밭집</a></td>
+            <td>한식 백반</td>
+            <td>4.3</td>
+            <td>서울특별시 강북구 솔샘로 예시 1길 23</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place3.html"><img src="./media/hanplace3.jpg" alt="시골농장" width="100" height="100"></a></td>
+            <td><a href="pages/place3.html">시골농장</a></td>
+            <td>된장찌개, 제육볶음</td>
+            <td>4.5</td>
+            <td>서울특별시 강북구 시골로 12길 11</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place4.html"><img src="./media/hanplace4.jpg" alt="사리원돼지국밥" width="100" height="100"></a></td>
+            <td><a href="pages/place4.html">사리원돼지국밥</a></td>
+            <td>국밥, 순대국</td>
+            <td>4.4</td>
+            <td>서울특별시 강북구 도봉로 14길 3</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place5.html"><img src="./media/hanplace5.jpg" alt="갈비냉면" width="100" height="100"></a></td>
+            <td><a href="pages/place5.html">갈비냉면</a></td>
+            <td>갈비, 냉면</td>
+            <td>4.6</td>
+            <td>서울특별시 강북구 냉면로 88</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 양식 섹션 -->
+    <section id="western">
+      <h2>🍔 양식</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>대표이미지</th>
+            <th>상호</th>
+            <th>구분</th>
+            <th>평점</th>
+            <th>위치</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="pages/place6.html"><img src="./media/yangplace1.jpg" alt="원더버거" width="100" height="100"></a></td>
+            <td><a href="pages/place6.html">원더버거</a></td>
+            <td>수제버거</td>
+            <td>4.5</td>
+            <td>서울특별시 강북구 예시로 123</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place7.html"><img src="./media/yangplace2.jpg" alt="하루 한끼" width="100" height="100"></a></td>
+            <td><a href="pages/place7.html">하루 한끼</a></td>
+            <td>샐러드, 파스타</td>
+            <td>4.4</td>
+            <td>서울특별시 강북구 하루길 12</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place8.html"><img src="./media/yangplace3.jpg" alt="리얼파스타" width="100" height="100"></a></td>
+            <td><a href="pages/place8.html">리얼파스타</a></td>
+            <td>파스타, 리조또</td>
+            <td>4.6</td>
+            <td>서울특별시 강북구 파스타로 88</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place9.html"><img src="./media/yangplace4.jpg" alt="엘수에뇨" width="100" height="100"></a></td>
+            <td><a href="pages/place9.html">엘수에뇨</a></td>
+            <td>이탈리안</td>
+            <td>4.3</td>
+            <td>서울특별시 강북구 수유동 로맨스길 7</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 중식 섹션 -->
+    <section id="chinese">
+      <h2>🥟 중식</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>대표이미지</th>
+            <th>상호</th>
+            <th>구분</th>
+            <th>평점</th>
+            <th>위치</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="pages/place10.html"><img src="./media/jungplace1.jpg" alt="황금성" width="100" height="100"></a></td>
+            <td><a href="pages/place10.html">황금성</a></td>
+            <td>짜장면, 탕수육</td>
+            <td>4.2</td>
+            <td>서울특별시 강북구 도봉로 21</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place11.html"><img src="./media/jungplace2.jpg" alt="쎄쎄" width="100" height="100"></a></td>
+            <td><a href="pages/place11.html">쎄쎄</a></td>
+            <td>중식요리, 볶음밥</td>
+            <td>4.4</td>
+            <td>서울특별시 강북구 미아동 쎄쎄로 8</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place12.html"><img src="./media/jungplace3.jpg" alt="마라순코우 마라탕" width="100" height="100"></a></td>
+            <td><a href="pages/place12.html">마라순코우 마라탕</a></td>
+            <td>마라탕, 훠궈</td>
+            <td>4.3</td>
+            <td>서울특별시 강북구 마라로 5</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 일식 섹션 -->
+    <section id="japanese">
+      <h2>🍣 일식</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>대표이미지</th>
+            <th>상호</th>
+            <th>구분</th>
+            <th>평점</th>
+            <th>위치</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="pages/place13.html"><img src="./media/ilplace1.jpg" alt="다몬초밥" width="100" height="100"></a></td>
+            <td><a href="pages/place13.html">다몬초밥</a></td>
+            <td>초밥, 사시미</td>
+            <td>4.5</td>
+            <td>서울특별시 강북구 초밥길 1</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place14.html"><img src="./media/ilplace2.jpg" alt="고도라멘" width="100" height="100"></a></td>
+            <td><a href="pages/place14.html">고도라멘</a></td>
+            <td>라멘, 돈코츠</td>
+            <td>4.4</td>
+            <td>서울특별시 강북구 라멘로 2</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place15.html"><img src="./media/ilplace3.jpg" alt="양국" width="100" height="100"></a></td>
+            <td><a href="pages/place15.html">양국</a></td>
+            <td>일식덮밥, 규동</td>
+            <td>4.3</td>
+            <td>서울특별시 강북구 일본로 3</td>
+          </tr>
+          <tr>
+            <td><a href="pages/place16.html"><img src="./media/ilplace4.jpg" alt="상미규카츠" width="100" height="100"></a></td>
+            <td><a href="pages/place16.html">상미규카츠</a></td>
+            <td>규카츠</td>
+            <td>4.6</td>
+            <td>서울특별시 강북구 규카츠길 10</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- 푸터: 저작권 문구 -->
+  <footer>
+    <p>&copy; 2025 덕대생 포트폴리오 맛집 프로젝트</p>
+  </footer>
+
+</body>
 </html>

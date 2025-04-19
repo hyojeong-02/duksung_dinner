@@ -1,0 +1,61 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #ddd;
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 15px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  table th, table td {
+    border: 1px solid #aaa;
+    padding: 10px;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  img {
+    border-radius: 8px;
+  }
+  
+  footer {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  
